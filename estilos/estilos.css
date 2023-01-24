@@ -1,0 +1,340 @@
+* {
+	box-sizing: border-box;
+}
+
+
+aside {
+	position: relative;
+	margin: 60px 0px 20px;
+	padding: 20px;
+	background-color: #AA9B9B;
+	width: 35%;
+	float:left;
+	border-radius: 5px;
+	min-width: 250px;
+	flex-direction: column;
+
+}
+
+
+aside * {
+	color: white;
+	
+}
+aside h3{
+	
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+/*
+*{
+	scroll-margin-top: 60ex;
+}
+*/
+
+
+aside section h3:first-child{
+	border-bottom: 2px solid white;
+}
+
+p {
+	color: #232323;
+
+	}
+
+#foto-perfil img{
+	border-radius: 50%;
+}
+
+figcaption{
+	text-align: center;
+}
+
+
+ul {
+	list-style-type: none;
+}
+
+/*------------Main-----------*/
+
+.hero {
+
+	background-color: #F7DDC3;
+	box-shadow: 10px 5px 5px rgba(100, 100,100, .4);
+	margin: 0px, 15px, 0px;
+	padding: 15%;
+	border-radius: 5px;
+
+}
+
+.hero h1{
+	font-size: 1.3em;
+	text-transform: uppercase;
+	letter-spacing: 15px;
+	text-align: center;
+	
+}
+
+.hero h2{
+	font-size: 1.2em;
+	line-height: 1.5em;
+	color: white;
+	border-top: 2px solid white;
+	letter-spacing: 15px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.acercaMi {
+	background-color: #F3E5E4;
+	box-shadow: 10px 5px 5px rgba(100, 100,100, .4);
+	margin: 15px auto;
+	padding: 15px;
+	border-radius: 5px;
+
+}
+
+.acercaMi p {
+	line-height: 1.5em;
+	text-align: justify;
+}
+
+article {
+h3, h4, h5, h6{
+	font-weight: bold;
+	}
+
+} 
+
+h6 {
+	font-size: 1em;
+}
+
+article ul {
+	list-style-type: square;
+
+	}
+
+section[id]{
+	margin-top: 30px;
+	scroll-margin-top: 70px;
+}
+
+main {
+	position: relative;
+	margin: 60px 20px 20px;
+	width: 65%;
+	float: left;
+	justify-content: space-between;
+}
+
+main section h3 {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+main section h4 {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+main section h5 {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+body {
+	margin: 0px auto;
+	justify-content: center;
+	align-items: center;
+	min-width: 250px;
+	flex-direction: column;
+	min-height: 100vh;
+	display: box;
+	position: relative;
+}
+
+.contenedor-principal{
+
+	margin: 0 auto;
+	padding: 0px, 15px;
+	display: flex;
+	width: 100%;
+	z-index:-3;
+	justify-content: center;
+	padding-bottom: 60px;
+	position: absolute;
+	min-height: 100vh;
+}
+
+/* ---------- DT ------------------*/
+
+
+
+dt {
+	clear: left;
+	width: 30%;
+	float: left;
+	font-weight: bolder;
+	
+}
+
+
+dt: last-of-type, dd: last-of-type{
+	border-bottom: 1px solid white;
+}
+
+dd {
+	clear: right;
+	width: 60%;
+	float: left;
+	margin: 0;
+}
+
+dt: last-of-type, dd: last-of-type {
+	border-bottom: 1px solid white;
+	line-height: 1.5em;
+}
+
+dt,dd{
+	flex-basis: 10%;
+	margin: 0;
+	line-height: 1.5em;
+	border-top: 1px solid white;
+	font-size: 0.8em;
+}
+
+dt {
+	font-weight: bolder;
+}
+
+/* Referencias */
+
+.referencias {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #F3E5E4;
+	padding: 10px  15px 30px;
+	border-radius: 5px;
+	box-shadow: 10px 5px 5px rgba(100, 100,100, .4);
+	
+}
+
+.referencias article {
+	width: 50%;
+	text-align: center;
+
+}
+
+meter {
+	display: block;
+	width: 80%;
+}
+
+meter::-webkit-meter-optimum-value {
+	background: none;
+	background-color: #6ED800;
+}
+
+meter::-webkit-meter-bar {
+	background: none;
+	background-color: #727272;
+}
+
+header{
+	display: block;
+	width:100%;
+	position: fixed;
+	
+}
+
+
+
+nav{
+	width: 100%;
+	position: fixed;
+	background: #4D4D4D;
+	text-align: center;
+	padding: 15px;
+	margin-top: -5px;
+	border-radius: 5px;
+}
+
+
+nav a {
+	color: white;
+}
+
+nav a: active {
+	background-color: blue;
+}
+
+
+button {
+	background: #625858;
+}
+input {
+	color: black;
+}
+
+textarea {
+	color: black;
+}
+
+footer{
+	display: box;
+	position: fixed;
+	width: 100%;
+	background: #4D4D4D;
+	text-align: center;
+	padding: 15px 50px;
+	border-radius: 5px;
+	margin-bottom: -5px;
+	bottom:  0;
+}
+
+button {
+	width: 70%;
+	position: relative;
+	left: 15%;
+	padding: 15px;
+	border-radius: 12px;
+	margin-top: 15px;
+	background-color: #F7DDC3;
+	color: black;
+	z-index: 55;
+}
+
+dialog {
+	padding: 30px;
+}
+
+aside dialog h2 {
+	color: black;
+}
+
+}
+ventana:: backdrop {
+	background-color: rgba(0,0,0,.95);
+}
+
+
+/*Responsivo*/
+
+@media(max-width: 530px){
+	.contenedor-principal{
+		flex-wrap: wrap;
+		}
+	.hero h1{
+		font-size: 1em;
+		letter-spacing: 2px;
+	}
+	
+	.hero h2{
+		font-size: .8em;
+		letter-spacing: 2px;
+	}
+
+}
+
